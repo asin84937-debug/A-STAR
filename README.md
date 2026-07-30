@@ -49,7 +49,68 @@
     end (while loop)
 
 ``````
+## Program
+```
+import heapq
 
+def a_star(graph, heuristic, start, goal):
+    open_list = []
+    heapq.heappush(open_list, (heuristic[start], 0, start, [start]))
+
+    visited = {}
+
+    while open_list:
+        f, g, current, path = heapq.heappop(open_list)
+
+        if current == goal:
+            return path
+
+        if current in visited and visited[current] <= g:
+            continue
+
+        visited[current] = g
+
+        for neighbor, cost in graph[current]:
+            new_g = g + cost
+            new_f = new_g + heuristic[neighbor]
+            heapq.heappush(open_list, (new_f, new_g, neighbor, path + [neighbor]))
+
+    return None
+
+
+# Input
+n, e = map(int, input().split())
+
+graph = {}
+
+for _ in range(e):
+    u, v, w = input().split()
+    w = int(w)
+
+    if u not in graph:
+        graph[u] = []
+    if v not in graph:
+        graph[v] = []
+
+    graph[u].append((v, w))
+    graph[v].append((u, w))  # Undirected graph
+
+heuristic = {}
+
+for _ in range(n):
+    node, h = input().split()
+    heuristic[node] = int(h)
+
+start = input("Enter Start Node: ").strip()
+goal = input("Enter Goal Node: ").strip()
+
+path = a_star(graph, heuristic, start, goal)
+
+if path:
+    print("Path found:", path)
+else:
+    print("No path found")
+```
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
