@@ -1,6 +1,6 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name:       </h3>
-<h3>Register Number:           </h3>
+<h3>Name: Asin Banu A      </h3>
+<h3>Register Number: 212225040035   </h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
@@ -114,8 +114,12 @@ else:
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
-
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
+
+## Input 1
+<img width="238" height="691" alt="Screenshot 2026-07-30 160634" src="https://github.com/user-attachments/assets/184b0339-9ccf-4e83-8f84-6adbb4200141" />
+## Output 1
+<img width="484" height="74" alt="Screenshot 2026-07-30 160647" src="https://github.com/user-attachments/assets/83c6a92a-69fb-4751-bf5c-4f743c0e7337" />
 
 <hr>
 <h2>Sample Input</h2>
@@ -154,8 +158,12 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 <hr>
 <h2>Sample Graph II</h2>
 <hr>
-
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
+
+## Input 1
+<img width="144" height="286" alt="Screenshot 2026-07-30 161354" src="https://github.com/user-attachments/assets/737ae9b8-08e2-4d64-99ad-373f266119b9" />
+## Output 2
+<img width="327" height="68" alt="Screenshot 2026-07-30 161406" src="https://github.com/user-attachments/assets/8748699c-a951-4265-9369-2957ab36043e" />
 
 
 <hr>
@@ -178,3 +186,6 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
+
+## Result
+Thus a graph was constructed and implementation of A star Search for the same graph was done successfully
