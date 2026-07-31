@@ -163,7 +163,7 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
 
-## Input 1
+## Input 2
 <img width="144" height="286" alt="Screenshot 2026-07-30 161354" src="https://github.com/user-attachments/assets/737ae9b8-08e2-4d64-99ad-373f266119b9" />
 
 ## Output 2
