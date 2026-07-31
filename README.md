@@ -192,4 +192,4 @@ G 0 <br>
 Path found: ['A', 'E', 'D', 'G']
 
 ## Result
-Thus a graph was constructed and implementation of A star Search for the same graph was done successfully
+Thus a graph was constructed and implementation of A star Search for the same graph was done successfully.
